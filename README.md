@@ -74,7 +74,7 @@ pred = tensorizer.decode(outputs)
 
 ## Citations
 Please consider citing the original papers if you use the code:
-```
+```BibTeX
 @article{li2020oscar,
   title={Oscar: Object-Semantics Aligned Pre-training for Vision-Language Tasks},
   author={Li, Xiujun and Yin, Xi and Li, Chunyuan and Hu, Xiaowei and Zhang, Pengchuan and Zhang, Lei and Wang, Lijuan and Hu, Houdong and Dong, Li and Wei, Furu and Choi, Yejin and Gao, Jianfeng},

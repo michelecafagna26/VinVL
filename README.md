@@ -21,7 +21,7 @@ cd apex
 python setup.py install --cuda_ext --cpp_ext
 
 # install oscar
-git clone --recursive git@github.com:microsoft/Oscar.git
+git clone --recursive git@github.com:michelecafagna26/VinVL.git
 cd Oscar/coco_caption
 ./get_stanford_models.sh
 cd ..

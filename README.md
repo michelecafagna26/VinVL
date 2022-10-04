@@ -59,7 +59,7 @@ tensorizer = OscarTensorizer(tokenizer=tokenizer, device=device)
 
 # numpy-arrays with shape (1, num_boxes, feat_size)
 # feat_size is 2054 by default in VinVL
-visual_features = torch.from_numpy(feat_obj['features']).to(device).unsqueeze(0)
+visual_features = torch.from_numpy(feat_obj).to(device).unsqueeze(0)
 
 # labels are usually extracted by the features extractor
 labels = [['boat', 'boat', 'boat', 'bottom', 'bush', 'coat', 'deck', 'deck', 'deck', 'dock', 'hair', 'jacket']]

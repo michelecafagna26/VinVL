@@ -1,0 +1,1 @@
+from oscar.wrappers.wrappers import OscarTensorizer

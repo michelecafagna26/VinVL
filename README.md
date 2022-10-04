@@ -1,4 +1,4 @@
-# VinVL
+# VinVL for Captioning
 Original VinVL (and Oscar) repo with API for an easy ready-to-go inference for captioning.
 All the code is on [microsoft/Oscar](https://github.com/microsoft/Oscar) please refer that repo for further info about the pre-training, fine-tuning and pretrained checkpoint.
 
@@ -38,7 +38,7 @@ We released pre-trained models, datasets, VinVL image features, and Oscar+ pretr
 To download checkpoints for the Vanilla OSCAR, please check [DOWNLOAD.md](https://github.com/microsoft/Oscar/blob/master/DOWNLOAD.md) for details.
 
 
-## Quick start: captioning
+## Quick start: Image Captioning
 
 ```python
 from Oscar.transformers.pytorch_transformers import BertConfig, BertTokenizer

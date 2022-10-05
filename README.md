@@ -38,6 +38,9 @@ We released pre-trained models, datasets, VinVL image features, and Oscar+ pretr
 
 To download checkpoints for the Vanilla OSCAR, please check [DOWNLOAD.md](https://github.com/microsoft/Oscar/blob/master/DOWNLOAD.md) for details.
 
+## Features Extraction
+
+Refer to this repo to extract visual_features witht the VinVL original VisualBackbone: [michelecafagna26/vinvl-visualbackbone](https://github.com/michelecafagna26/vinvl-visualbackbone)
 
 ## Quick start: Image Captioning
 

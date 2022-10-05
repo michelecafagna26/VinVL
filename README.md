@@ -42,9 +42,9 @@ To download checkpoints for the Vanilla OSCAR, please check [DOWNLOAD.md](https:
 ## Quick start: Image Captioning
 
 ```python
-from Oscar.transformers.pytorch_transformers import BertConfig, BertTokenizer
-from Oscar.oscar.modeling.modeling_bert import BertForImageCaptioning
-from Oscar.oscar.wrappers import OscarTensorizer
+from transformers.pytorch_transformers import BertConfig, BertTokenizer
+from oscar.modeling.modeling_bert import BertForImageCaptioning
+from oscar.wrappers import OscarTensorizer
 
 ckpt = "path/to/the/checkpoint"
 device = "cuda" if torch.cuda.is_available() else "cpu"

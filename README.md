@@ -40,7 +40,7 @@ To download checkpoints for the Vanilla OSCAR, please check [DOWNLOAD.md](https:
 
 ## Features Extraction
 
-Refer to this repo to extract visual_features witht the VinVL original VisualBackbone: [michelecafagna26/vinvl-visualbackbone](https://github.com/michelecafagna26/vinvl-visualbackbone)
+To extract visual_features with the VinVL's original VisualBackbone refer to this repo: [michelecafagna26/vinvl-visualbackbone](https://github.com/michelecafagna26/vinvl-visualbackbone)
 
 ## Quick start: Image Captioning
 

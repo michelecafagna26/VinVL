@@ -55,10 +55,9 @@ git lfs install # if not installed
 git clone https://huggingface.co/michelecafagna26/vinvl-base-finetuned-hl-scenes-image-captioning
 ```
 
-
 ## Features Extraction
 
-For an easy extraction I've prepared a repo based on the VinVL's original VisualBackbone: [michelecafagna26/vinvl-visualbackbone](https://github.com/michelecafagna26/vinvl-visualbackbone)
+For an easy feature extraction I've prepared a repo based on the VinVL's original VisualBackbone: [michelecafagna26/vinvl-visualbackbone](https://github.com/michelecafagna26/vinvl-visualbackbone)
 
 ---
 ## Quick start: Image Captioning

@@ -33,10 +33,28 @@ pip install -r requirements.txt
 
 ```
 
-## Model downloading
-We released pre-trained models, datasets, VinVL image features, and Oscar+ pretraining corpus for downstream tasks. Please check [VinVL_DOWNLOAD.md](https://github.com/microsoft/Oscar/blob/master/VinVL_DOWNLOAD.md) from the original repo for details.
+## Model downloading 
+Please check [VinVL_DOWNLOAD.md](https://github.com/microsoft/Oscar/blob/master/VinVL_DOWNLOAD.md) from the original repo for details regarding pre-trained models, datasets, VinVL image features, and Oscar+ pretraining corpus for downstream tasks 
 
 To download checkpoints for the Vanilla OSCAR, please check [DOWNLOAD.md](https://github.com/microsoft/Oscar/blob/master/DOWNLOAD.md) for details.
+
+## Model downloading (Huggingface)
+
+- VinVL base pretrained for image captioning
+
+```bash
+# download from the huggingface model hub
+git lfs install # if not installed
+git clone https://huggingface.co/michelecafagna26/vinvl-base-image-captioning
+```
+- VinVL base finetuned for scene description generation
+
+```bash
+# download from the huggingface model hub
+git lfs install # if not installed
+git clone https://huggingface.co/michelecafagna26/vinvl-base-finetuned-hl-scenes-image-captioning
+```
+
 
 ## Features Extraction
 
@@ -95,6 +113,21 @@ Please consider citing the original papers if you use the code:
   journal={CVPR 2021},
   year={2021}
 }
+```
+
+For the model finetuned on scene descriptions
+```BibTeX
+@misc{cafagna2022understanding,
+  author = {Cafagna Michele and van Deemter Kees and Gatt Albert},
+  title = {Understanding Cross-modal Interactions in V&amp;L Models that Generate Scene Descriptions},
+  doi = {10.48550/ARXIV.2211.04971},
+  url = {https://arxiv.org/abs/2211.04971},
+  keywords = {Computation and Language (cs.CL), Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {Creative Commons Attribution 4.0 International}
+}
+
 ```
 
 ## License

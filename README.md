@@ -17,19 +17,15 @@ pip install --upgrade pip
 
 # install apex
 git clone https://github.com/NVIDIA/apex.git
-cd apex
-python setup.py install --cuda_ext --cpp_ext
+python apex/setup.py install --cuda_ext --cpp_ext
 
 # install oscar
-cd ..
 git clone --recursive git@github.com:michelecafagna26/VinVL.git
-cd Oscar/coco_caption
-./get_stanford_models.sh
-cd ..
-python setup.py build develop
+./VinVL/Oscar/coco_caption/get_stanford_models.sh
+python VinVL/Oscar/setup.py build develop
 
 # install the requirements
-pip install -r requirements.txt
+pip install -r VinVL/Oscar/requirements.txt
 
 ```
 
@@ -67,6 +63,7 @@ from transformers.pytorch_transformers import BertConfig, BertTokenizer
 from oscar.modeling.modeling_bert import BertForImageCaptioning
 from oscar.wrappers import OscarTensorizer
 
+#ckpt = "vinvl-base-finetuned-hl-scenes-image-captioning" # if you downloaded from huggingface
 ckpt = "path/to/the/checkpoint"
 device = "cuda" if torch.cuda.is_available() else "cpu"
 

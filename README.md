@@ -113,15 +113,19 @@ Please consider citing the original papers if you use the code:
 
 For the model finetuned on scene descriptions
 ```BibTeX
-@misc{cafagna2022understanding,
-  author = {Cafagna Michele and van Deemter Kees and Gatt Albert},
-  title = {Understanding Cross-modal Interactions in V&amp;L Models that Generate Scene Descriptions},
-  doi = {10.48550/ARXIV.2211.04971},
-  url = {https://arxiv.org/abs/2211.04971},
-  keywords = {Computation and Language (cs.CL), Computer Vision and Pattern Recognition (cs.CV), FOS: Computer and information sciences, FOS: Computer and information sciences},
-  publisher = {arXiv},
-  year = {2022},
-  copyright = {Creative Commons Attribution 4.0 International}
+@inproceedings{cafagna-etal-2022-understanding,
+    title = "Understanding Cross-modal Interactions in {V}{\&}{L} Models that Generate Scene Descriptions",
+    author = "Cafagna, Michele  and
+      Deemter, Kees van  and
+      Gatt, Albert",
+    booktitle = "Proceedings of the Workshop on Unimodal and Multimodal Induction of Linguistic Structures (UM-IoS)",
+    month = dec,
+    year = "2022",
+    address = "Abu Dhabi, United Arab Emirates (Hybrid)",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2022.umios-1.6",
+    pages = "56--72",
+    abstract = "Image captioning models tend to describe images in an object-centric way, emphasising visible objects. But image descriptions can also abstract away from objects and describe the type of scene depicted. In this paper, we explore the potential of a state of the art Vision and Language model, VinVL, to caption images at the scene level using (1) a novel dataset which pairs images with both object-centric and scene descriptions. Through (2) an in-depth analysis of the effect of the fine-tuning, we show (3) that a small amount of curated data suffices to generate scene descriptions without losing the capability to identify object-level concepts in the scene; the model acquires a more holistic view of the image compared to when object-centric descriptions are generated. We discuss the parallels between these results and insights from computational and cognitive science research on scene perception.",
 }
 
 ```

@@ -1,5 +1,5 @@
 # VinVL for Captioning
-Original VinVL (and Oscar) implementation with APIs for an easy ready-to-go inference for captioning.
+VinVL (and Oscar) implementation with APIs for an easy ready-to-go inference for captioning.
 The code is based on [microsoft/Oscar](https://github.com/microsoft/Oscar) please refer that repo for further info about the pre-training, fine-tuning and pretrained checkpoint.
 
 ## Installation
